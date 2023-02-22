@@ -42,7 +42,7 @@ jobs:
     - name: Release scripts
       uses: softprops/action-gh-release@v1
       with:
-        files: block/*.user.js
+        files: block/*Indonesia.user.js
         name: Automatic script generation
         tag_name: ${{ env.TAG_NAME }}
         body: "Rilis ini berisi semua skrip yang disediakan oleh repositori ini.\n\nSilahkan lihat [halaman proyek utama](${{ github.server_url }}/${{ github.repository }}) untuk deskripsi skrip."
