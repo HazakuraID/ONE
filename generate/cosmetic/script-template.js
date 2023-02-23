@@ -1,18 +1,18 @@
 // ==UserScript==
-// @name         AdBlock Hazakura
+// @name         Cosmetic Ad Block for Bromite{{if .isLite}} (Lite){{end}}
 // @namespace    hazakuraid
 // @version      {{.version}}
-// @description  Script for AdBlock anti-block support you browser on chromium
+// @description  Blocks annoying elements in {{if .isLite}}top {{.topDomainCount}} domains{{else}}pages{{end}}, sourced from many different filter lists
 // @author       hazakuraid
-// @icon         https://raw.githubusercontent.com/HazakuraID/ONE/main/generate/cosmetic/ag.png
 // @match        *://*/*
 // @grant        none
 // @run-at       document-start
+// @url_source   https://github.com/HazakuraID/ONE/releases/latest/download/cosmetic{{if .isLite}}-lite{{end}}Indonesia.user.js
 // ==/UserScript==
 /// @stats {{.statistics}}
 {
     let log = function (...data) {
-        console.log("[Cosmetic filters by hazakuraid (v{{.version}})]:", ...data);
+        console.log("[Cosmetic filters by hazakuraid (v{{.version}} {{if .isLite}}lite{{else}}full{{end}})]:", ...data);
     }
 
 
