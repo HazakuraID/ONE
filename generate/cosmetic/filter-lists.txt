@@ -1,52 +1,119 @@
-https://ublockorigin.github.io/uAssets/filters/filters.txt
-https://ublockorigin.github.io/uAssets/filters/badware.txt
-https://ublockorigin.github.io/uAssets/filters/privacy.txt
-https://cdn.jsdelivr.net/gh/uBlockOrigin/uAssetsCDN@main/filters/quick-fixes.txt
-https://ublockorigin.github.io/uAssets/filters/resource-abuse.txt
-https://ublockorigin.github.io/uAssets/filters/unbreak.txt
-https://easylist.to/easylist/easylist.txt
-https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
-https://easylist.to/easylist/easyprivacy.txt
-https://malware-filter.pages.dev/urlhaus-filter-online.txt
-https://ublockorigin.github.io/uAssets/filters/annoyances.txt
+# ----------------------------------
+# Pertama, semua entri dari bromite-extended
+# ----------------------------------
+
+# Entri default dari 
+https://github.com/uBlockOrigin/uAssets/raw/master/filters/filters.txt
+https://github.com/uBlockOrigin/uAssets/raw/master/filters/badware.txt
+https://github.com/uBlockOrigin/uAssets/raw/master/filters/privacy.txt
+https://github.com/uBlockOrigin/uAssets/raw/master/filters/resource-abuse.txt
+https://github.com/uBlockOrigin/uAssets/raw/master/filters/unbreak.txt
+https://secure.fanboy.co.nz/easylist.txt
+https://secure.fanboy.co.nz/easyprivacy.txt
+https://pgl.yoyo.org/adservers/serverlist.php?hostformat=adblockplus&showintro=1&mimetype=plaintext
+
+# Elemen yang Mengganggu, janji Cookie, dll.
 https://raw.githubusercontent.com/Yuki2718/adblock2/main/medium_mode/dynamic-rules.txt
-https://raw.githubusercontent.com/Yuki2718/adblock2/main/medium_mode/dynamic-rules-mob.txt
-https://raw.githubusercontent.com/Yuki2718/adblock2/main/japanese/jpfp-ub.txt
-https://raw.githubusercontent.com/Yuki2718/adblock2/main/japanese/jpfp-ag.txt
-https://filters.adtidy.org/windows/filters/22.txt
-https://filters.adtidy.org/windows/filters/17.txt
-https://filters.adtidy.org/extension/ublock/filters/3.txt
+https://raw.githubusercontent.com/yourduskquibbles/webannoyances/master/ultralist.txt
+https://raw.githubusercontent.com/yourduskquibbles/webannoyances/master/filters/ad_placeholders.txt
+https://raw.githubusercontent.com/yourduskquibbles/webannoyances/master/filters/cookie_filters.txt
+https://raw.githubusercontent.com/yourduskquibbles/webannoyances/master/filters/floating_filters.txt
+https://raw.githubusercontent.com/yourduskquibbles/webannoyances/master/filters/generic_filters.txt
+https://raw.githubusercontent.com/yourduskquibbles/webannoyances/master/filters/modal_filters.txt
+https://raw.githubusercontent.com/yourduskquibbles/webannoyances/master/filters/newsletter_filters.txt
+https://raw.githubusercontent.com/yourduskquibbles/webannoyances/master/filters/social_filters.txt
+https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2020.txt
+https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2022.txt
+https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2021.txt
+https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/annoyances.txt
+
+# Fanboy Anti Serang
+https://secure.fanboy.co.nz/fanboy-annoyance.txt
+https://secure.fanboy.co.nz/fanboy-cookiemonster.txt
+https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Other%20domains%20versions/FanboyNotifications-LoadableInUBO.txt
+
+# Filter terhadap popup anti-adblock
+https://easylist-downloads.adblockplus.org/antiadblockfilters.txt
+https://raw.githubusercontent.com/bogachenko/fuckfuckadblock/master/fuckfuckadblock.txt
+https://filters.adtidy.org/windows/filters/19.txt
+
+# Filter uBlock Origin lainnya
+https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/privacy.txt
+https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/unbreak.txt
+
+# Pelacak catatan CNAME
+https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/combined_disguised_trackers.txt
+
+# Daftar Adguard lainnya
+https://filters.adtidy.org/extension/ublock/filters/2.txt
+https://filters.adtidy.org/extension/ublock/filters/14.txt
+https://filters.adtidy.org/extension/ublock/filters/5.txt
+https://filters.adtidy.org/extension/ublock/filters/10.txt
 https://filters.adtidy.org/extension/ublock/filters/4.txt
-https://filters.adtidy.org/windows/filters/19.txt
-https://filters.adtidy.org/windows/filters/19.txt
+https://filters.adtidy.org/extension/ublock/filters/11.txt
+https://filters.adtidy.org/extension/ublock/filters/3.txt
+https://filters.adtidy.org/windows/filters/18.txt
+https://filters.adtidy.org/windows/filters/15.txt
 https://filters.adtidy.org/windows/filters/20.txt
 https://filters.adtidy.org/windows/filters/21.txt
-https://filters.adtidy.org/extension/ublock/filters/11.txt
-https://filters.adtidy.org/extension/chromium/filters/10.txt
-https://filters.adtidy.org/extension/chromium/filters/5.txt
-https://filters.adtidy.org/windows/filters/15.txt
-https://filters.adtidy.org/windows/filters/18.txt
-https://filters.adtidy.org/extension/chromium/filters/2.txt
-https://filters.adtidy.org/extension/ublock/filters/11.txt
 https://filters.adtidy.org/extension/ublock/filters/3.txt
-https://filters.adtidy.org/extension/ublock/filters/17.txt
-https://filters.adtidy.org/extension/chromium/filters/14.txt
-https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/combined_disguised_trackers.txt
-https://raw.githubusercontent.com/Yuki2718/adblock2/main/japanese/jpf-plus.txt
-https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/subscriptions/abpindo.txt
-https://raw.githubusercontent.com/realodix/AdBlockID/master/output/adblockid.txt
-https://raw.githubusercontent.com/Hakame-kun/uBlock-Filters-Indonesia/master/uBlock%20Indo/ubindo.txt
-https://raw.githubusercontent.com/DandelionSprout/adfilt/master/AnnoyancesList
-https://raw.githubusercontent.com/DandelionSprout/adfilt/master/ClearURLs%20for%20uBo/clear_urls_uboified.txt
-https://raw.githubusercontent.com/d3ward/toolz/master/src/d3host.adblock
-https://raw.githubusercontent.com/bogachenko/fuckfuckadblock/master/fuckfuckadblock.txt
-https://raw.githubusercontent.com/yourduskquibbles/webannoyances/master/ultralist.txt
-https://www.i-dont-care-about-cookies.eu/abp/
-https://secure.fanboy.co.nz/fanboy-cookiemonster.txt
-https://raw.githubusercontent.com/llacb47/miscfilters/master/antipaywall.txt
-https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt
-https://raw.githubusercontent.com/Spam404/lists/master/adblock-list.txt
-https://abp.oisd.nl/basic/
-https://fanboy.co.nz/fanboy-problematic-sites.txt
+https://filters.adtidy.org/windows/filters/22.txt
+
+# Font pihak ketiga
 https://fanboy.co.nz/fanboy-antifonts.txt
-https://easylist.to/easylist/fanboy-social.txt
+
+# Pelacakan pihak ketiga lainnya
+https://fanboy.co.nz/fanboy-social.txt
+
+# ----------------------------------
+# Sekarang beberapa daftar khusus wilayah
+# ----------------------------------
+https://raw.githubusercontent.com/realodix/AdBlockID/master/output/adblockid.txt
+https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/subscriptions/abpindo.txt
+https://raw.githubusercontent.com/Hakame-kun/uBlock-Filters-Indonesia/master/uBlock%20Indo/ubindo.txt
+https://raw.githubusercontent.com/Yuki2718/adblock2/main/japanese/jpf-plus.txt
+https://raw.githubusercontent.com/HazakuraID/filters/main/HazakuraID.txt
+https://easylist-downloads.adblockplus.org/easylistgermany.txt
+
+# Adguard lists from https://github.com/AdguardTeam/AdguardFilters
+https://filters.adtidy.org/extension/ublock/filters/6.txt
+https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/AnnoyancesFilter/Cookies/sections/cookies_general.txt
+https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/AnnoyancesFilter/Cookies/sections/cookies_specific.txt
+https://github.com/AdguardTeam/AdguardFilters/raw/master/AnnoyancesFilter/Widgets/sections/widgets.txt
+https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/AnnoyancesFilter/MobileApp/sections/mobile-app_general.txt
+https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/AnnoyancesFilter/MobileApp/sections/mobile-app_specific.txt
+https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/AnnoyancesFilter/Other/sections/tweaks.txt
+https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/AnnoyancesFilter/Other/sections/annoyances.txt
+https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/AnnoyancesFilter/Other/sections/self-promo.txt
+https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/AnnoyancesFilter/Popups/sections/antiadblock.txt
+https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/AnnoyancesFilter/Popups/sections/subscriptions_specific.txt
+https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/AnnoyancesFilter/Popups/sections/subscriptions_general.txt
+https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/AnnoyancesFilter/Popups/sections/push-notifications_specific.txt
+https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/AnnoyancesFilter/Popups/sections/push-notifications_general.txt
+https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/AnnoyancesFilter/Popups/sections/popups_specific.txt
+https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/AnnoyancesFilter/Popups/sections/popups_general.txt
+
+https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/BaseFilter/sections/adservers.txt
+https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/BaseFilter/sections/adservers_firstparty.txt
+https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/BaseFilter/sections/antiadblock.txt
+https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/BaseFilter/sections/banner_sizes.txt
+https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/BaseFilter/sections/cname_adservers.txt
+https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/BaseFilter/sections/content_blocker.txt
+https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/BaseFilter/sections/cryptominers.txt
+https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/BaseFilter/sections/css_extended.txt
+https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/BaseFilter/sections/foreign.txt
+https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/BaseFilter/sections/general_elemhide.txt
+https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/BaseFilter/sections/general_extensions.txt
+https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/BaseFilter/sections/general_url.txt
+https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/BaseFilter/sections/replace.txt
+https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/BaseFilter/sections/specific.txt
+
+https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/MobileFilter/sections/adservers.txt
+https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/MobileFilter/sections/antiadblock.txt
+https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/MobileFilter/sections/css_extended.txt
+https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/MobileFilter/sections/general_elemhide.txt
+https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/MobileFilter/sections/general_extensions.txt
+https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/MobileFilter/sections/general_url.txt
+https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/MobileFilter/sections/replace.txt
+https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/MobileFilter/sections/specific_app.txt
+https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/MobileFilter/sections/specific_web.txt
