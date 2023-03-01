@@ -7,7 +7,7 @@
 // @match        *://*/*
 // @grant        none
 // @run-at       document-start
-// @url_source   https://github.com/HazakuraID/ONE/releases/latest/download/cosmetic{{if .isLite}}-lite{{end}}Indonesia.user.js
+// @url_source   https://github.com/HazakuraID/ONE/releases/latest/download/Indonesia.user.js
 // ==/UserScript==
 /// @stats {{.statistics}}
 {

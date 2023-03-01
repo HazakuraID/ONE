@@ -56,7 +56,6 @@ https://filters.adtidy.org/windows/filters/18.txt
 https://filters.adtidy.org/windows/filters/15.txt
 https://filters.adtidy.org/windows/filters/20.txt
 https://filters.adtidy.org/windows/filters/21.txt
-https://filters.adtidy.org/extension/ublock/filters/3.txt
 https://filters.adtidy.org/windows/filters/22.txt
 
 # Font pihak ketiga
@@ -72,10 +71,10 @@ https://raw.githubusercontent.com/realodix/AdBlockID/master/output/adblockid.txt
 https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/subscriptions/abpindo.txt
 https://raw.githubusercontent.com/Hakame-kun/uBlock-Filters-Indonesia/master/uBlock%20Indo/ubindo.txt
 https://raw.githubusercontent.com/Yuki2718/adblock2/main/japanese/jpf-plus.txt
-https://raw.githubusercontent.com/HazakuraID/filters/main/HazakuraID.txt
 https://easylist-downloads.adblockplus.org/easylistgermany.txt
 
-# Adguard lists from https://github.com/AdguardTeam/AdguardFilters
+# Adguard lists from
+https://github.com/AdguardTeam/AdguardFilters
 https://filters.adtidy.org/extension/ublock/filters/6.txt
 https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/AnnoyancesFilter/Cookies/sections/cookies_general.txt
 https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/AnnoyancesFilter/Cookies/sections/cookies_specific.txt
@@ -93,6 +92,7 @@ https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/AnnoyancesFi
 https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/AnnoyancesFilter/Popups/sections/popups_specific.txt
 https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/AnnoyancesFilter/Popups/sections/popups_general.txt
 
+# filter block
 https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/BaseFilter/sections/adservers.txt
 https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/BaseFilter/sections/adservers_firstparty.txt
 https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/BaseFilter/sections/antiadblock.txt
@@ -108,6 +108,7 @@ https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/BaseFilter/s
 https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/BaseFilter/sections/replace.txt
 https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/BaseFilter/sections/specific.txt
 
+# filters all
 https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/MobileFilter/sections/adservers.txt
 https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/MobileFilter/sections/antiadblock.txt
 https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/MobileFilter/sections/css_extended.txt
